@@ -6,7 +6,7 @@ package com.javarush.task.task33.task3310.strategy;
 public class FileStorageStrategy implements StorageStrategy {
     static final int DEFAULT_INITIAL_CAPACITY = 16;
     private long bucketSizeLimit = 10_000;
-    private FileBucket[] table = {
+    private FileBucket[] table = { 
             new FileBucket(),new FileBucket(),new FileBucket(),new FileBucket(),
             new FileBucket(),new FileBucket(),new FileBucket(),new FileBucket(),
             new FileBucket(),new FileBucket(),new FileBucket(),new FileBucket(),
