@@ -4,68 +4,52 @@ import com.javarush.task.task33.task3310.strategy.*;
 
 import java.util.Date;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 /**
  * Created by leha on 2017-04-13.
  */
 public class Solution {
-    public static void main (String args[]) {
+    public static void main(String args[]) {
         Solution solution = new Solution();
-       solution.testStrategy(new HashMapStorageStrategy(), 100);
-         solution.testStrategy(new OurHashMapStorageStrategy(), 100);
+        solution.testStrategy(new HashMapStorageStrategy(), 100);
+        solution.testStrategy(new OurHashMapStorageStrategy(), 100);
         solution.testStrategy(new FileStorageStrategy(), 100);
-     /*   FileBucket bucket = new FileBucket();
-        Entry entry = new Entry(12345, 222L, "znahenije", null);
-        System.out.println(entry.getKey() + " " + entry.getValue());
-        bucket.putEntry(entry);
-        entry = bucket.getEntry();
-        System.out.println(entry.getKey() + " " + entry.getValue());*/
 
     }
-   public static Set<Long> getIds(Shortener shortener, Set<String> strings) {
-        Set set = new HashSet();
-        Iterator it = strings.iterator();
-        while (it.hasNext()) {
-            String string = (String)it.next();
-            set.add(shortener.getId(string));
+
+    public static Set<Long> getIds(Shortener shortener, Set<String> strings) {
+        Set<Long> result = new HashSet<>();
+        for (String s : strings) {
+            result.add(shortener.getId(s));
         }
-        return set;
+        return result;
     }
+
     public static Set<String> getStrings(Shortener shortener, Set<Long> keys) {
-        Set set = new HashSet();
-        Iterator it = keys.iterator();
-        while (it.hasNext()) {
-            Long lonng = (Long)it.next();
-            set.add(shortener.getString(lonng));
+        Set<String> result = new HashSet<>();
+        for (Long l : keys) {
+            result.add(shortener.getString(l));
         }
-        return set;
+        return result;
     }
 
     public static void testStrategy(StorageStrategy strategy, long elementsNumber) {
         Helper.printMessage(strategy.getClass().getSimpleName());
-
-        Set<String> testSetStrings  = new HashSet<>();
+        Set<String> strings = new HashSet<>();
         for (long i = 0; i < elementsNumber; i++) {
-            testSetStrings.add(Helper.generateRandomString());
+            strings.add(Helper.generateRandomString());
         }
-
         Shortener shortener = new Shortener(strategy);
-        Date date1 = new Date();
-        Set<Long> keys = getIds(shortener,testSetStrings );
-        Date date2 = new Date();
-        Long vremia = date2.getTime()-date1.getTime();
-        Helper.printMessage(vremia.toString());
-
-        Date date3 = new Date();
-        Set<String> strings2 = getStrings(shortener, keys);
-        Date date4 = new Date();
-        Long vremia2 = date4.getTime()-date3.getTime();
-        Helper.printMessage(vremia2.toString());
-
-        Helper.printMessage(testSetStrings.equals(strings2)? "Тест пройден.":"Тест не пройден.");
-
-
+        Date start1 = new Date();
+        Set<Long> ids = getIds(shortener, strings);
+        Date end1 = new Date();
+        Helper.printMessage(String.valueOf(end1.getTime() - start1.getTime()));
+        Date start2 = new Date();
+        Set<String> stringsTest = getStrings(shortener, ids);
+        Date end2 = new Date();
+        Helper.printMessage(String.valueOf(end2.getTime() - start2.getTime()));
+        if (strings.size() == stringsTest.size()) Helper.printMessage("Тест пройден.");
+        else Helper.printMessage("Тест не пройден.");
     }
 }
