@@ -1,5 +1,8 @@
 package com.javarush.task.task33.task3310.strategy;
 
+/**
+ * Created by Андрей on 3/21/2017.
+ */
 public class FileStorageStrategy implements StorageStrategy {
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
     private static final long DEFAULT_BUCKET_SIZE_LIMIT = 10000;
@@ -18,7 +21,7 @@ public class FileStorageStrategy implements StorageStrategy {
         return (int) (h ^ (h >>> 7) ^ (h >>> 4));
     }
     private int indexFor(int hash, int length) {
-        return hash % (length - 1);
+        return hash & (length - 1);
     }
     private Entry getEntry(Long key) {
         int hash = hash(key);
@@ -132,7 +135,7 @@ public class FileStorageStrategy implements StorageStrategy {
                 entry = entry.next;
             }
         }
-        return null;
+        return 0l;
     }
     @Override
     public String getValue(Long key) {
@@ -149,4 +152,5 @@ public class FileStorageStrategy implements StorageStrategy {
     public long getMaxBucketSize() {
         return maxBucketSize;
     }
+
 }
