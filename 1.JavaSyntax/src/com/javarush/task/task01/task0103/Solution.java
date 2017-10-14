@@ -6,6 +6,6 @@ package com.javarush.task.task01.task0103;
 
 public class Solution {
     public static void main(String[] args) {
-        Date date = new Date ()
+        //Date date = new Date ()
     }
 }
