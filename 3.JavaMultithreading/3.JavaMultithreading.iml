@@ -106,5 +106,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="xmleditorkit" level="project" />
+    <orderEntry type="library" name="postgresql-42.1.4.jre7" level="project" />
+    <orderEntry type="library" name="postgresql-42.1.4" level="project" />
   </component>
 </module>
