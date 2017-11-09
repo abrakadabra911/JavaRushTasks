@@ -99,7 +99,10 @@
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task28/task2812" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task28/task2813" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task29" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task30/task3001" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task30/task3008" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task30/task3009" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task30/task3010" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3110" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3608" />
     </content>
