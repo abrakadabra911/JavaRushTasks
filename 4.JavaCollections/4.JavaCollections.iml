@@ -88,6 +88,19 @@
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3712" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3713" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3714" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3801" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3802" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3803" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3804" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3805" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3806" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3807" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3808" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3809" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3810" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3811" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3812" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task39/task3913" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -119,8 +132,10 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="apache-commons-codec-1.4" level="project" />
+    <orderEntry type="library" name="a" level="project" />
     <orderEntry type="library" name="postgresql-42.1.4.jre7" level="project" />
     <orderEntry type="library" name="postgresql-42.1.4" level="project" />
+    <orderEntry type="library" name="org.powermock.examples:powermock-examples-slf4j:1.4.10" level="project" />
+    <orderEntry type="library" name="org.jsoup:jsoup:1.9.2" level="project" />
   </component>
 </module>
