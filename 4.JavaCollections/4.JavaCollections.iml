@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task22/task2213" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task25/task2515" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task26/task2613" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3101" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3102" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3103" />
@@ -102,6 +103,18 @@
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3812" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task39" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task39/task3913" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4001" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4002" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4003" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4004" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4005" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4006" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4007" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4008" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4009" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4010" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4011" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4012" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -138,5 +151,6 @@
     <orderEntry type="library" name="postgresql-42.1.4" level="project" />
     <orderEntry type="library" name="org.powermock.examples:powermock-examples-slf4j:1.4.10" level="project" />
     <orderEntry type="library" name="org.jsoup:jsoup:1.9.2" level="project" />
+    <orderEntry type="library" name="com.guardtime:ksi-service-client-apache-http:4.9.95" level="project" />
   </component>
 </module>
