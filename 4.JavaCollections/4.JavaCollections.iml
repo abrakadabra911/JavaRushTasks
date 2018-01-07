@@ -4,8 +4,12 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task20/task2028" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task22/task2213" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task25/task2515" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task26/task2613" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task28/task2810" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3101" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3102" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3103" />
@@ -18,6 +22,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3111" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3112" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task31/task3113" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task32" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task32/task3201" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task32/task3202" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task32/task3203" />
@@ -30,20 +35,11 @@
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task32/task3212" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task32/task3213" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3301" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3302" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3303" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3304" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3306" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3307" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3308" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3309" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3311" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3312" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task33/task3313" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3401" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3402" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3403" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3404" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3405" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3406" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3407" />
@@ -51,69 +47,13 @@
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3409" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3411" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3412" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3501" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3502" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3503" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3504" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3505" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3507" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3508" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3509" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3510" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3511" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35/task3512" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3601" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3602" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3603" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3604" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3605" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3606" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3607" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3609" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3610" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3611" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3612" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36/task3613" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3701" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3702" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3703" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3704" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3705" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3706" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3707" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3708" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3709" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3710" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3711" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3712" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3713" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37/task3714" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3801" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3802" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3803" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3804" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3805" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3806" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3807" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3808" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3809" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3810" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3811" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38/task3812" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task34/task3413" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task35" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task36" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task37" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task38" />
       <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task39" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task39/task3913" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4001" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4002" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4003" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4004" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4005" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4006" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4007" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4008" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4009" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4010" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4011" />
-      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40/task4012" />
+      <excludeFolder url="file://$MODULE_DIR$/src/com/javarush/task/task40" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -151,5 +91,6 @@
     <orderEntry type="library" name="org.powermock.examples:powermock-examples-slf4j:1.4.10" level="project" />
     <orderEntry type="library" name="org.jsoup:jsoup:1.9.2" level="project" />
     <orderEntry type="library" name="com.guardtime:ksi-service-client-apache-http:4.9.95" level="project" />
+    <orderEntry type="library" name="com.fasterxml.jackson.annotations" level="project" />
   </component>
 </module>

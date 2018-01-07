@@ -14,7 +14,7 @@ public class Solution {
 
     public static void main(String[] args) throws IOException
     {
-        ArrayList<Point> list = new ArrayList<>();
+        ArrayList<Point> list = new ArrayList<Point>();
 
         //читаем все точки по порядку. x1, y1, x2, y2, итд. пока не скажем end
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -29,7 +29,7 @@ public class Solution {
         reader.close();
 
         // создаём массив отрезков из последующих двух точек.
-        ArrayList<Point[]> otrezok = new ArrayList<>();
+        ArrayList<Point[]> otrezok = new ArrayList<Point[]>();
         Point[] otr;
         for (int i = 0; i <= list.size() - 2; i++)
         {
@@ -57,7 +57,7 @@ public class Solution {
         // начинаем !
         for(double y = ymin; y <= ymax; y=y+Math.min(1,ymax-y))
         {
-            ArrayList<Double[]> to4ki_peresecheniya = new ArrayList<>();
+            ArrayList<Double[]> to4ki_peresecheniya = new ArrayList<Double[]>();
             double x1;
             double x2;
             double y1;
