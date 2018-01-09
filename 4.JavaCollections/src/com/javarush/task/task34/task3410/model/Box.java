@@ -1,0 +1,51 @@
+package com.javarush.task.task34.task3410.model;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+public class Box extends CollisionObject implements Movable{
+    private static BufferedImage image;
+    private  String RESOURCE_PATH =  getClass().getPackage().getName()
+            .replaceAll("\\.", "/")
+            .replace("model", "pic/box2.png");
+    public Box(int x, int y) {
+        super(x, y);
+        try {
+            image = ImageIO.read(new File(getClass().getClassLoader()
+                    .getResource(RESOURCE_PATH).toURI()));
+        }
+        catch (Exception e){e.printStackTrace();}
+    }
+
+    @Override
+    public void draw(Graphics graphics) {
+        int width = Model.FIELD_CELL_SIZE;
+        graphics.drawImage(image, getX()-width/2, getY()-width/2,null);
+    }
+
+    @Override
+    public void move(int x, int y) {
+        setX(getX()+x);
+        setY(getY()+y);
+    }
+
+    @Override
+    public void move(Direction direction) {
+        int x = 0, y = 0;
+        if (direction == Direction.UP) {
+            x=0; y=-Model.FIELD_CELL_SIZE;
+        }
+        if (direction == Direction.DOWN) {
+            x=0; y=+Model.FIELD_CELL_SIZE;
+        }
+        if (direction == Direction.LEFT) {
+            x=-Model.FIELD_CELL_SIZE; y=0;
+        }
+        if (direction == Direction.RIGHT) {
+            x=Model.FIELD_CELL_SIZE; y=0;
+        }
+        move( x,  y);
+    }
+}

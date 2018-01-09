@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: .
+Main-Class: D:\JavaRushTasks\3.JavaMultithreading\src\com\javarush\tas
+ k\task23\task2312.Room
+

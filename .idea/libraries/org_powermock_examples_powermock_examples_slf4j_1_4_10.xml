@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="org.powermock.examples:powermock-examples-slf4j:1.4.10" type="repository">
+    <properties maven-id="org.powermock.examples:powermock-examples-slf4j:1.4.10" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/powermock-examples-slf4j-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/powermock-api-easymock-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/powermock-api-support-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/powermock-core-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.15.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/powermock-reflect-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/objenesis-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
